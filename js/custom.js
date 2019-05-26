@@ -157,14 +157,14 @@ $(document).ready(function () {
 		}
 	}
 
-	// 5. Init Classes Slider
+	// 5. Init Testimonial Slider
 
 	function initClassesSlider() {
 		if ($('.classes_slider').length) {
 			var classesSlider = $('.classes_slider');
 			classesSlider.owlCarousel(
 				{
-					items: 1,
+					items: 3,
 					loop: true,
 					autoplay: true,
 					nav: false,
