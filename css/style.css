@@ -708,7 +708,7 @@
   .home_container
   {
     width: 100%;
-    top: -18px;
+    top: -45px;
   }
   .home_content
   {
@@ -740,7 +740,7 @@
   .home_title h1
   {
     font-size: 72px;
-    font-weight: 600;
+    font-weight: 300;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -762,7 +762,7 @@
   {
     position: absolute;
     left: calc((100% - 1102px) / 2);
-    bottom: 62px;
+    bottom: 36px;
     z-index: 100;
   }
   .home_slider .owl-dots .owl-dot
@@ -925,7 +925,7 @@
 .classes_slide_wrap > div
 {
 	background: white;
-  padding-top: 88px;
+  padding-top: 125px;
   padding-left: 104px;
   padding-right: 104px;
   padding-bottom: 108px;
