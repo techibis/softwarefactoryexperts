@@ -1389,6 +1389,161 @@ body {
 }
 
   /*********************************
+12. Shopify
+*********************************/
+
+/*shopify */
+
+
+h3.title {
+  font-size: 50px;
+  text-transform: uppercase !important;
+  font-weight: 700;
+}
+
+h3.title span {
+  border-bottom: 4px double #ff5252;
+  display: inherit;
+  max-width: 80px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  box-shadow: -31px 29px 6px -6px rgba(16, 16, 16, 0.08);
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 82, 82, 0.39);
+  cursor: pointer;
+}
+
+.carousel-indicators {
+  bottom: -58px;
+}
+
+.carousel-indicators .active {
+  background-color: #ff5252;
+}
+
+h4.about-left-agile {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+h4.about-left-agile span {
+  color: #3f51b5 !important;
+}
+
+.aboutleft.ml-4 p {
+  font-size: 14px;
+}
+
+
+/* about bottom */
+
+.about-bottom-wthree {
+  background: white;
+}
+
+.bottom-w3ls1 {
+  position: relative;
+  z-index: 1;
+}
+
+.bottom-w3ls1 i {
+  font-size: 60px;
+  position: absolute;
+  top: -30%;
+  left: -7%;
+  z-index: -1;
+  color: #1d1c1c !important;
+  transform: rotate(-35deg);
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.bottom-w3ls1:hover.bottom-w3ls1 i {
+  left: -17%;
+  color: #ff5252 !important;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.bottom-w3ls1 h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 21px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 17px;
+  width: 250px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.bottom-w3ls1:hover.bottom-w3ls1 h4 {
+  border-color:black;
+  width: 300px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.col-4.bottom-w3ls1 p {
+  color: #eee;
+}
+
+
+.w3l-agile {
+  background: rgba(0, 0, 0, 0.56);
+  padding: 3em 2em;
+}
+
+
+@media(max-width: 1050px) {
+  .bottom-w3ls1:hover.bottom-w3ls1 i {
+      left: -11%;
+  }
+  .bottom-w3ls1 i {
+      font-size: 54px;
+      top: -23%;
+      left: -5%;
+  }
+}
+
+@media(max-width: 1024px) {
+  .bottom-w3ls1:hover.bottom-w3ls1 i {
+      left: -8%;
+  }
+  .img_text_w3ls h4 {
+      font-size: 26px;
+      letter-spacing: 1px;
+  }
+  #menu:after {
+      left: 102px;
+  }
+}
+
+
+
+
+/*--//responsive--*/
+
+  /*********************************
 12. Footer
 *********************************/
 
