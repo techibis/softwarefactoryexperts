@@ -39,7 +39,8 @@ $(document).ready(function () {
 
 	initMenu();
 	initHomeSlider();
-	initClassesSlider();
+	// initClassesSlider();
+
 	// initPricingSlider();
 
 	/* 
@@ -159,36 +160,38 @@ $(document).ready(function () {
 
 	// 5. Init Testimonial Slider
 
-	function initClassesSlider() {
-		if ($('.classes_slider').length) {
-			var classesSlider = $('.classes_slider');
-			classesSlider.owlCarousel(
-				{
-					items: 3,
-					loop: true,
-					autoplay: true,
-					nav: false,
-					dots: false,
-					smartSpeed: 1200,
-					margin: 30,
-					responsive:
-					{
-						0:
-						{
-							items: 1
-						},
-						768:
-						{
-							items: 2
-						},
-						992:
-						{
-							items: 3
-						}
-					}
-				});
-		}
-	}
+	// function initClassesSlider() {
+	// 	if ($('.classes_slider').length) {
+	// 		var classesSlider = $('.classes_slider');
+	// 		classesSlider.owlCarousel(
+	// 			{
+	// 				items: 3,
+	// 				loop: true,
+	// 				autoplay: true,
+	// 				nav: false,
+	// 				dots: false,
+	// 				smartSpeed: 1200,
+	// 				margin: 30,
+	// 				responsive:
+	// 				{
+	// 					0:
+	// 					{
+	// 						items: 1
+	// 					},
+	// 					768:
+	// 					{
+	// 						items: 2
+	// 					},
+	// 					992:
+	// 					{
+	// 						items: 3
+	// 					}
+	// 				}
+	// 			});
+	// 	}
+	// }
+
+
 
 
 	/* 
