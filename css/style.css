@@ -762,7 +762,7 @@
   {
     position: absolute;
     left: calc((100% - 1102px) / 2);
-    bottom: 36px;
+    bottom: -10px;
     z-index: 100;
   }
   .home_slider .owl-dots .owl-dot
@@ -925,7 +925,7 @@
 .classes_slide_wrap > div
 {
 	background: white;
-  padding-top: 125px;
+  padding-top: 88px;
   padding-left: 104px;
   padding-right: 104px;
   padding-bottom: 108px;
