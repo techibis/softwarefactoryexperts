@@ -164,7 +164,7 @@ $(document).ready(function () {
 			var classesSlider = $('.classes_slider');
 			classesSlider.owlCarousel(
 				{
-					items: 3,
+					items: 1,
 					loop: true,
 					autoplay: true,
 					nav: false,
