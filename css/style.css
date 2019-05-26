@@ -708,7 +708,7 @@
   .home_container
   {
     width: 100%;
-    top: -45px;
+    top: -18px;
   }
   .home_content
   {
@@ -740,7 +740,7 @@
   .home_title h1
   {
     font-size: 72px;
-    font-weight: 300;
+    font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.2em;
