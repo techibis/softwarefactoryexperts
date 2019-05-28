@@ -1296,12 +1296,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
-  line-height: 1.2;
-  margin-bottom: 0;
+  /* line-height: 1.2; */
+  vertical-align: middle;
+  margin: auto;
   color: white;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2em; 
 }
 .accordion:before{
     content: "";
@@ -1427,25 +1428,10 @@ h3.title span {
   background-color: #ff5252;
 }
 
-h4.about-left-agile {
-  font-size: 20px;
-  letter-spacing: 1px;
-  line-height: 2em;
-  text-transform: uppercase;
-}
 
-h4.about-left-agile span {
-  color: #3f51b5 !important;
-}
+/* shopify bottom */
 
-.aboutleft.ml-4 p {
-  font-size: 14px;
-}
-
-
-/* about bottom */
-
-.about-bottom-wthree {
+.shopify-bottom-wthree {
   background: white;
 }
 
@@ -1471,13 +1457,13 @@ h4.about-left-agile span {
 
 .bottom-w3ls1:hover.bottom-w3ls1 i {
   left: -17%;
-  color: #ff5252 !important;
+  color: rgb(140, 198, 61) !important;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
-}
+ }
 
 .bottom-w3ls1 h4 {
   font-weight: 600;
@@ -1538,12 +1524,7 @@ h4.about-left-agile span {
   }
 }
 
-
-
-
-/*--//responsive--*/
-
-  /*********************************
+/*********************************
 12. Footer
 *********************************/
 
