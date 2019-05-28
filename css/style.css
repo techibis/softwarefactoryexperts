@@ -109,6 +109,9 @@
     list-style: none;
     margin-bottom: 0px;
   }
+  a{
+    color: #0ffffd;
+  }
   p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -1604,3 +1607,6 @@ hr {
   background-color: red;
   border: none;
   }
+.fa-heart-o {
+  color: red;
+}
