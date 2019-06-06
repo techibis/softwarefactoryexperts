@@ -96,6 +96,7 @@
     background: #FFFFFF;
     color: #a5a5a5;
   }
+  
   div
   {
     display: block;
@@ -1392,6 +1393,43 @@ body {
     line-height: 28px;
 }
 
+
+
+
+
+
+#faq-accordion{
+  /* padding: 40px 30px 60px 30px; */
+  display: grid;
+  grid-gap: 30px;
+  /* grid-template-columns: repeat(2, 50%); */
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  /* height: auto; */
+  /* width: 500px; */
+}
+  .card-faq{
+    margin: 0 15px 20px 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+  }
+  .multi-collapse{
+    background-color: #eee;
+  }
+    .card-body{
+      border-radius: 5px;
+      background-color: #eee;
+      padding: calculateRem(20px);
+    }
+
+
+
+
+
+
+
+
   /*********************************
 12. Shopify
 *********************************/
@@ -1554,6 +1592,7 @@ h3.title span {
 	font-size: 15px;
 	font-weight: 700;
 	color: #a18df8;
+  text-align: center;
 }
 .footer_row
 {
