@@ -1529,6 +1529,59 @@ h3.title span {
 }
 
 /*********************************
+12. Clients
+*********************************/
+
+.client-box{
+  background-color: #190a49;
+  box-shadow: 11px 16px 28px 6px;
+  border-radius: 25px;
+ }
+
+.client-box:hover{
+  background-color: #7753ea;
+ }
+ 
+ .col-gap{
+  margin-bottom: 20px;
+ 
+ }
+ .p-color{
+  color: #FFFFFF;
+  margin-top: 20px;
+ }
+ .p-color:hover{
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+ }
+ .item-zoom {
+  position: relative;
+  text-align: center;
+  border: 2px solid red;
+  overflow: hidden;
+  max-width: 75%;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: fit-content;
+  top: 15px;
+ }
+ .item-zoom:hover {
+  border: 2px solid #333;
+ }
+ 
+ .item-zoom img {
+     vertical-align: top;
+     max-width: 100%;
+     transition: all 0.3s;
+ }
+ 
+ .item-zoom:hover img { 
+     transform: scale(1.1);
+ }
+
+/*********************************
 12. Footer
 *********************************/
 
