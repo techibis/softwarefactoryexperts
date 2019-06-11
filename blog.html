@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Software Factory</title>
+    <link rel="icon" type="image/jpg" href="images/logo.jpg">
+    <!-- For apple devices -->
+    <link rel="apple-touch-icon" type="image/jpg" href="images/logo.jpg" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/contact_responsive.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="css/aos.css">
 </head>
 
 <body>
@@ -26,10 +30,11 @@
             <div class="header_wrap d-flex flex-row align-items-center justify-content-center">
 
                 <!-- Logo -->
-                <div class="logo"><a href="#"><img src="images/logo.jpg" alt="" style="height: 68px;"></a></div>
+                <div class="logo animated zoomIn"><a href="#"><img src="images/logo.jpg" alt=""
+                            style="height: 68px;"></a></div>
 
                 <!-- Main Nav -->
-                <nav class="main_nav">
+                <nav class="main_nav animated fadeInRight">
                     <ul class="d-flex flex-row align-items-center justify-content-center">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="services.html">What We
@@ -73,7 +78,7 @@
                 <div class="logo"><a href="#"><img src="images/logo.jpg" alt="" style="height: 68px;"></a></div>
 
                 <!-- Main Nav -->
-                <nav class="main_nav">
+                <nav class="main_nav animated fadeInRight">
                     <ul class="d-flex flex-row align-items-center justify-content-center">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="services.html">What We
@@ -104,7 +109,6 @@
 
                 <!-- Hamburger -->
                 <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
-
             </div>
         </header>
 
@@ -148,7 +152,7 @@
                 data-speed="0.8"></div>
             <div class="home_overlay"></div>
             <div class="home_container d-flex flex-column align-items-center justify-content-center">
-                <div class="home_title">
+                <div class="home_title" data-aos="zoom-out" data-aos-offset="300">
                     <div class="home_title">
                         <h1>Blog</h1>
                     </div>
@@ -314,7 +318,7 @@
         <!-- Footer -->
 
         <footer class="footer">
-            <div class="footer_content">
+            <div class="footer_content" data-aos="zoom-in" data-aos-offset="800">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -371,7 +375,7 @@
                 </div>
             </div>
             <hr>
-            <div class="footer_bar d-flex flex-row align-items-center justify-content-center">
+            <div class="footer_bar d-flex flex-row align-items-center justify-content-center" data-aos="zoom-in">
                 <div class="copyright">
                     Copyright &copy;
                     <script>document.write(new Date().getFullYear());</script> Software Factory. All rights
@@ -383,6 +387,11 @@
         </footer>
     </div>
 
+
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>

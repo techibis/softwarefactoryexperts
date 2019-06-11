@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Software Factory</title>
+    <link rel="icon" type="image/jpg" href="images/logo.jpg">
+    <!-- For apple devices -->
+    <link rel="apple-touch-icon" type="image/jpg" href="images/logo.jpg" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <!-- font-awesome-icons -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -19,6 +22,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/shopify.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="css/aos.css">
 </head>
 
 <body>
@@ -30,10 +34,11 @@
             <div class="header_wrap d-flex flex-row align-items-center justify-content-center">
 
                 <!-- Logo -->
-                <div class="logo"><a href="#"><img src="images/logo.jpg" alt="" style="height: 68px;"></a></div>
+                <div class="logo animated zoomIn"><a href="#"><img src="images/logo.jpg" alt=""
+                            style="height: 68px;"></a></div>
 
                 <!-- Main Nav -->
-                <nav class="main_nav">
+                <nav class="main_nav animated fadeInRight">
                     <ul class="d-flex flex-row align-items-center justify-content-center">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="services.html">What We
@@ -77,7 +82,7 @@
                 <div class="logo"><a href="#"><img src="images/logo.jpg" alt="" style="height: 68px;"></a></div>
 
                 <!-- Main Nav -->
-                <nav class="main_nav">
+                <nav class="main_nav animated fadeInRight">
                     <ul class="d-flex flex-row align-items-center justify-content-center">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="services.html">What We
@@ -108,7 +113,6 @@
 
                 <!-- Hamburger -->
                 <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
-
             </div>
         </header>
 
@@ -152,17 +156,19 @@
                 data-image-src="images/shopify_banner.png" data-speed="0.8"></div>
             <div class="home_container">
                 <div class="home_title" style="text-align: right;margin-top: 80px;margin-right:80px">
-                    <h1 style="font-weight:bolder">SHOPIFY</h1>
-                    <h1 style="font-weight:bolder">MARKETING</h1>
-                    <h1 style="font-weight:bolder">PARTNER</h1>
-                    <h4 style="float:right;width:400px">A Shopify Partner Helping You Grow Traffic and Revenue</h4>
+                    <h1 style="font-weight:bolder" data-aos="zoom-out" data-aos-offset="50">SHOPIFY</h1>
+                    <h1 style="font-weight:bolder" data-aos="zoom-in" data-aos-offset="100">MARKETING</h1>
+                    <h1 style="font-weight:bolder" data-aos="zoom-out" data-aos-offset="150">PARTNER</h1>
+                    <h4 style="float:right;width:400px" data-aos="fade-right" data-aos-offset="200">A Shopify Partner
+                        Helping You Grow Traffic and Revenue</h4>
                 </div>
             </div>
         </div>
 
         <!-- Shopify -->
         <div style="display: flex;flex-direction: column;align-content: center">
-            <div style="margin:0px 100px 50px 100px">
+            <div style="margin:0px 100px 50px 100px" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="500">
                 <p style="text-align:center; margin-top:100px;font-size: 45px;color:black">Take the next step with a
                     Shopify Partner and increase revenue through digital marketing.</p>
                 <p style="text-align:center;margin-top:30px;color: grey">You have likely come across numerous experts
@@ -173,7 +179,8 @@
             </div>
             <div class="shopify-bottom-wthree py-5">
                 <div class="container py-xl-5 py-lg-3">
-                    <div class="row py-4 posi-w3ls-bottom">
+                    <div class="row py-4 posi-w3ls-bottom" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="500">
                         <div class="col-lg-4 bottom-w3ls1">
                             <h4 class="mb-4">Site Migration</h4>
                             <p style="color: grey">Our specialists can help you migrate your site to Shopify without
@@ -224,7 +231,8 @@
                     </div>
                 </div>
             </div>
-            <div style="margin-bottom:50px;align-self: center">
+            <div style="margin-bottom:50px;align-self: center" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="500">
                 <button class="btn btn-large" style="text-align:center;background-color: rgb(140, 198, 61);"><a
                         style="color:white" href="contact.html" target="_blank">LET'S GET
                         STARTED</a></button>
@@ -233,7 +241,8 @@
 
 
         <!-- banner-bottom -->
-        <div style="background-color:#f7f7f7; padding: 100px; ">
+        <div style="background-color:#f7f7f7; padding: 100px; " data-aos="fade-up" data-aos-easing="linear"
+            data-aos-duration="500">
             <div class="container py-md-3">
                 <div class="row banner-grids">
                     <div class="col-md-6 content-left-bottom text-left pr-lg-5">
@@ -264,11 +273,10 @@
         </div>
         <!-- //banner-bottom -->
 
-
         <!-- Footer -->
 
         <footer class="footer">
-            <div class="footer_content">
+            <div class="footer_content" data-aos="zoom-in" data-aos-offset="500">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -351,6 +359,11 @@
     <script src="js/parallax.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
     <script src="js/contact.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
