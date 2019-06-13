@@ -998,13 +998,22 @@
 }
 .classes_slide_wrap:hover .classes_title h3
 {
-	color: rgb(165, 27, 27);
+	color: rgb(255, 65, 65);
 }
 .classes_text
 {
-	margin-top: 25px;
+  margin-top: 25px;
 }
-
+.classes_text_color
+{
+  color: #333333;
+}
+.classes_slide_wrap:hover .classes_title h5 {
+    color: white;
+}
+.classes_slide_wrap:hover .classes_text_color {
+  color: rgb(230, 224, 224);
+}
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -1146,6 +1155,24 @@ body {
 {
 	display: block;
 }
+.blog-item-zoom {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+  box-sizing: border-box;
+  width: fit-content;
+ }
+ 
+ .blog-item-zoom img {
+     vertical-align: top;
+     max-width: 100%;
+     transition: all 0.3s;
+ }
+ 
+ .blog-item-zoom:hover img { 
+     transform: scale(1.1);
+ }
 .blog_post_date
 {
 	position: absolute;
@@ -1153,7 +1180,8 @@ body {
 	left: 13px;
 	width: 74px;
 	height: 99px;
-	background: #190a49;
+  background: #190a49;
+  z-index: inherit;
 }
 .blog_post_date a
 {
@@ -1620,7 +1648,7 @@ h3.title span {
 	height: 95px;
 	border-radius: 50%;
   background: #0f0432;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 /* .footer_iconImg:hover{
 	transform: scale(1.5);
@@ -1649,7 +1677,8 @@ h3.title span {
   text-align: left;
 }
 .footer_list{
-	margin: 20px;
+  margin: 20px;
+  text-align: left;
 }
 /* .footer_list ul li:not(:last-of-type)
 {
@@ -1716,7 +1745,7 @@ html {
   border-radius: 25px 25px 0 25px;
 }
 .contact_textarea {
-  height: 100px;
+  height: 148px;
   padding-top: 20px;
 }
 .contact_button {
