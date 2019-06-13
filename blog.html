@@ -152,7 +152,7 @@
                 data-speed="0.8"></div>
             <div class="home_overlay"></div>
             <div class="home_container d-flex flex-column align-items-center justify-content-center">
-                <div class="home_title" data-aos="zoom-out" data-aos-offset="300">
+                <div class="home_title" data-aos="zoom-out">
                     <div class="home_title">
                         <h1>Blog</h1>
                     </div>
@@ -316,67 +316,88 @@
         </div>
 
         <!-- Footer -->
-
         <footer class="footer">
-            <div class="footer_content" data-aos="zoom-in" data-aos-offset="800">
+            <div class="footer_content">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" data-aos="zoom-in">
                         <div class="col">
                             <div class="footer_logo text-center"><a href="#"><img src="images/logo.jpg" alt=""
                                         style="height: 100px;"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="row footer_row">
-                        <div class="col-lg-4 footer_col">
-                            <div class="footer_item text-center">
-                                <div
-                                    class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-                                    <div><img src="images/phone.png" alt=""></div>
+                    <div class="row" data-aos="zoom-in">
+                        <div class="col-xl-6 footer_row">
+                            <div class="col-lg-7" data-aos="zoom-in">
+                                <div class="footer_item text-center" style="display: flex;">
+                                    <div
+                                        class="footer_icon d-flex flex-column align-items-center justify-content-center">
+                                        <i><img src="images/phone.png" alt=""></i>
+                                    </div>
+                                    <div class="footer_list">
+                                        <div class="footer_title">TALK TO US</div>
+                                        <ul>
+                                            <li>+1-786-816-5462</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="footer_title">talk to us</div>
-                                <div class="footer_list">
-                                    <ul>
-                                        <li>+1-786-816-5462</li>
-                                    </ul>
+                            </div>
+                            <div class="col-lg-10" data-aos="zoom-in">
+                                <div class="footer_item text-center" style="display: flex;">
+                                    <div
+                                        class="footer_icon d-flex flex-column align-items-center justify-content-center">
+                                        <div><img src="images/mail.png" alt=""></div>
+                                    </div>
+                                    <div class="footer_list">
+                                        <div class="footer_title">EMAIL</div>
+                                        <ul>
+                                            <li>sales@SoftwareFactoryExperts.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7" data-aos="zoom-in">
+                                <div class="footer_item text-center" style="display: flex;">
+                                    <div
+                                        class="footer_icon d-flex flex-column align-items-center justify-content-center">
+                                        <i><img src="images/contact.png" alt=""></i>
+                                    </div>
+                                    <div class="footer_list">
+                                        <div class="footer_title">LOCATION</div>
+                                        <ul>
+                                            <li>251 NE 1st Street</li>
+                                            <li>Miami, FL 33132</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 footer_col">
-                            <div class="footer_item text-center">
-                                <div
-                                    class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-                                    <div><img src="images/mail.png" alt=""></div>
-                                </div>
-                                <div class="footer_title">e-mail</div>
-                                <div class="footer_list">
-                                    <ul>
-                                        <li>sales@SoftwareFactoryExperts.com</li>
-                                    </ul>
-                                </div>
+
+                        <!-- Contact Content -->
+                        <div class="col-xl-6 contact_box" data-aos="fade-right">
+                            <div class="footer_title" style="margin: 14px 0 -55px 0;">Stay In Touch
                             </div>
-                        </div>
-                        <div class="col-lg-4 footer_col">
-                            <div class="footer_item text-center">
-                                <div
-                                    class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-                                    <div><img src="images/contact.png" alt=""></div>
-                                </div>
-                                <div class="footer_title">location</div>
-                                <div class="footer_list">
-                                    <ul>
-                                        <li>251 NE 1st Street</li>
-                                        <li>Miami, FL 33132</li>
-                                    </ul>
-                                </div>
+                            <div class="contact_form_container">
+                                <form action="#">
+                                    <div class="row contact_form_row">
+                                        <div class="col-md-12"><input type="text" class="contact_input"
+                                                placeholder="Your name" required="required"></div>
+                                        <div class="col-md-12"><input type="email" class="contact_input"
+                                                placeholder="Your email" required="required"></div>
+                                        <div class="col-12"><textarea class="contact_input contact_textarea"
+                                                placeholder="Message" required="required"></textarea>
+                                        </div>
+                                    </div>
+                                    <button class="contact_button">Contact Us</button>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <hr>
-            <div class="footer_bar d-flex flex-row align-items-center justify-content-center" data-aos="zoom-in">
-                <div class="copyright">
+            <div class="footer_bar d-flex flex-row align-items-center justify-content-center">
+                <div class="copyright" data-aos="zoom-in">
                     Copyright &copy;
                     <script>document.write(new Date().getFullYear());</script> Software Factory. All rights
                     reserved |
@@ -385,6 +406,7 @@
                 </div>
             </div>
         </footer>
+        <!-- End Our Footer Area -->
     </div>
 
 
