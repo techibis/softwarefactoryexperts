@@ -36,11 +36,11 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.header
+	/*.header
 	{
 		left: 60px;
 		width: calc(100% - 120px);
-	}
+	}*/
 	.main_nav ul li:not(:last-of-type)
 	{
 		margin-right: 48px;
@@ -230,12 +230,12 @@
 
 @media only screen and (max-width: 767px)
 {
-	.header
+	/*.header
 	{
 		top: 30px;
 		left: 30px;
 		width: calc(100% - 60px);
-	}
+	}*/
 	.home_slider .owl-dots
 	{
 		left: calc((100% - 500px) / 2);
@@ -261,12 +261,12 @@
 	{
 		font-size: 36px;
 	}
-	.header
+	/*.header
 	{
 		top: 15px;
 		left: 15px;
 		width: calc(100% - 30px);
-	}
+	}*/
 	.home
 	{
 		height: 85vh;
