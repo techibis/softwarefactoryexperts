@@ -30,6 +30,30 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.apage-middle-banner1 {
+  background: url(../images/company-waiting.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50px 0;
+}
+.apage-middle-banner2 {
+  background: url(../images/happy-worker.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50px 0;
+}
+.epage-middle-banner1 {
+  background: url(../images/hard-to-find.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50px 0;
+}
+.epage-middle-banner2 {
+  background: url(../images/interview.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50px 0;
+}
 .page-middle-banner3 {
   background: url(../images/servicebg5.png) no-repeat center;
   background-size: cover;
@@ -86,6 +110,13 @@
   padding: 4em 25em;
   text-align: center;
   line-height: 1.5;
+}
+.info1, .info1 li {
+  font-size: 20px;
+    letter-spacing: 1.8px;
+}
+.box .content .lineup {
+  margin-left: 28%;
 }
 @media screen and (max-width: 480px) {
   .inner {
