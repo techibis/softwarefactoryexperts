@@ -81,6 +81,9 @@
 
 @media only screen and (max-width: 1199px)
 {
+	.slide-wrap {
+		height: 59%;
+	}
 	.logo
 	{
 		left: 30px;
@@ -138,6 +141,7 @@
 
 @media only screen and (max-width: 991px)
 {
+	
 	.home_slider .owl-dots
 	{
 		left: calc((100% - 680px) / 2);
@@ -222,14 +226,14 @@
 @media only screen and (max-width: 768px)
 {
 	
-}
 
 /************
 10. 767px
 ************/
-
+}
 @media only screen and (max-width: 767px)
 {
+	
 	/*.header
 	{
 		top: 30px;
@@ -257,9 +261,40 @@
 
 @media only screen and (max-width: 575px)
 {
+	 .background_image {
+		 height: 87%;
+	 }
+	 .cta_content {
+		 padding: 0px;
+	 }
+	 .home_container {
+		top: -147px;
+	 }
+	 h3 {
+		 font-size: 15px;
+	 }
+	
 	h1
 	{
-		font-size: 36px;
+		font-size: 24px;
+	}
+	.cta .section_title h1 {
+		font-size: 18px;
+	}
+	.inner {
+		padding: 0px;
+	}
+	.info1 li {
+		font-size: 14px;
+	}
+	.info1 {
+		font-size: 14px;
+	}
+	.color ul info1 lineup {
+		font-size: 14px;
+	}
+	.cta_list ul li span {
+		font-size:17px;
 	}
 	/*.header
 	{
@@ -267,6 +302,7 @@
 		left: 15px;
 		width: calc(100% - 30px);
 	}*/
+	
 	.home
 	{
 		height: 85vh;
@@ -282,18 +318,19 @@
 	}
 	.home_subtitle
 	{
-		font-size: 16px;
-		margin-top: 125px;
+		font-size: 8px;
+		margin-top: 14px;
 	}
 	.home_title h1
 	{
-		font-size: 48px;
+		font-size: 19px;
 	}
 	.button,
 	.button_2
 	{
 		width: 157px;
 		height: 56px;
+		top:8px;
 	}
 	.button a,
 	.button_2 a
